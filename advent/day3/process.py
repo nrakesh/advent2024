@@ -23,13 +23,10 @@ f="2024-3-input.txt"
 f1="test.txt"
 text = read_file_content(f)
 text = text.replace('\n', '').replace('\r', '')
-# Define the regular expression pattern
+
 pattern1 = r"mul\((\d+),(\d+)\)"
 pattern2 = r"don't\(\)(.*?)(?=do\(\))"
 
-
-
-# Find all matches in the text
 matches = re.findall(pattern1, text)
 sum1 = get_sum(matches)
 
