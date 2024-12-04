@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddd46ff9-a759-4668-9833-e25bbe23bfce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../advent/day3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advent/day3/process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advent/day3/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advent/day4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advent/day4/process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advent/day4/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advent/advent/fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/../advent/advent/fetcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733071360093</updated>
-      <workItem from="1733071361135" duration="6582000" />
+      <workItem from="1733071361135" duration="7991000" />
     </task>
     <servers />
   </component>
