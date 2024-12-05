@@ -6,12 +6,11 @@ rules = {}
 def process(file_path, file_path2):
     global rules
     sum = 0
-    ok_rows = []
     with open(file_path, 'r') as file:
         for line in file:
             left, right = line.split('|')
-            left = int(left)  # Convert to integer
-            right = int(right)  # Convert to integer
+            left = int(left)
+            right = int(right)
             if left in rules:
                 rules[left].append(right)
             else:
@@ -28,7 +27,6 @@ def process(file_path, file_path2):
                 else:
                     break
             if is_ok:
-                ok_rows.append(pages)
                 sum += pages[len(pages) // 2]
 
     print("-----SUM=", sum)

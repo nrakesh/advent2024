@@ -6,12 +6,11 @@ rules = {}
 def process(file_path, file_path2):
     global rules
     sum = 0
-    ok_rows = []
     with open(file_path, 'r') as file:
         for line in file:
             left, right = line.split('|')
-            left = int(left)  # Convert to integer
-            right = int(right)  # Convert to integer
+            left = int(left)
+            right = int(right)
             if left in rules:
                 rules[left].append(right)
             else:
@@ -26,11 +25,8 @@ def process(file_path, file_path2):
                 is_ok = main_check(pages)
                 ctr += 1
             if ctr > 1:
-                ok_rows.append(pages)
                 sum += pages[len(pages) // 2]
-
     print("-----SUM=", sum)
-
 
 def main_check(pages):
     is_ok = True
@@ -39,20 +35,16 @@ def main_check(pages):
         if is_ok:
             continue
         else:
-            # we got a wr
             temp = pages[i]
             pages[i] = pages[bad]
             pages[bad] = temp
-            # swap indices
             break
     return is_ok
 
 
 def check(pages, n):
     global rules
-    #if not in rules ok
-    nv = pages[n]
-    rule = rules.get(nv)
+    rule = rules.get(pages[n])
     if rule is None:
         return True, 0
     else:
