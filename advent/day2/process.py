@@ -81,5 +81,5 @@ def safe(diff):
     return False
 
 
-process("2024-2-input.txt")
+process("../day6/2024-2-input.txt")
 #process("test.txt")

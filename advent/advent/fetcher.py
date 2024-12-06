@@ -27,5 +27,5 @@ def get_input(day, year=2024):
         return None
 
 # Example usage:
-day = 5
+day = 6
 input_data = get_input(day)

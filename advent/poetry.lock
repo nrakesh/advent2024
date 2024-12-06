@@ -204,6 +204,16 @@ files = [
 ]
 
 [[package]]
+name = "pyperclip"
+version = "1.9.0"
+description = "A cross-platform clipboard module for Python. (Only handles plain text for now.)"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyperclip-1.9.0.tar.gz", hash = "sha256:b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"},
+]
+
+[[package]]
 name = "requests"
 version = "2.32.3"
 description = "Python HTTP for Humans."
@@ -244,4 +254,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "eb66f0eea85a6e557e21aa00915e962ba4d413662b8256e35365df6afe40e419"
+content-hash = "9d3c614a324aece2117b4aaa4696e693fb9137cb1eb7cd0e151567492fe8beb2"
